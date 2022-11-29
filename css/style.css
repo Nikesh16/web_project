@@ -98,7 +98,7 @@ span {
 
 /* Login page css */
 .bg-img{
-  background: url(media/travel.jpeg);
+  background: url('../media/travel.jpeg');
   height: 100vh;
   background-size: cover;
   background-position: center;
