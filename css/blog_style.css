@@ -1,0 +1,236 @@
+.site-branding {
+	margin-bottom: 1em;
+	text-align: center;
+}
+
+.site-title {
+	font-family: 'Quattrocento Sans', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	line-height: 1;
+	margin-top: 25px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.site-title a {
+	text-decoration: none;
+}
+
+.site-description {
+	font-size: 14px;
+	font-style: italic;
+	font-weight: 300;
+	margin-top: -15px;
+	margin-bottom: 35px;
+	padding-top: 0;
+}
+
+.sticky {}
+
+.bypostauthor {}
+
+.hentry {
+	margin: 0 0 3.5em;
+}
+
+.single-post .hentry {
+	margin: 0 0 1.5em;
+}
+
+/* Thumbnail */
+.entry-thumbnail {
+	padding: 1em 0 0em 0;
+}
+
+.single-portfolio .entry-thumbnail {
+	padding: 2em 0 1.5em 0;
+}
+
+/* Entry Title */
+.entry-title {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+	line-height: 1.4;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+}
+
+.entry-title a {
+	text-decoration: none;
+	color: #222;
+}
+
+.entry-title a:hover {
+	color: #ccc !important;
+}
+
+/* Entry Content */
+.entry-content {
+	white-space: normal;
+}
+
+.entry-content p:last-child {
+	margin-bottom: 0;
+}
+
+a.more-link {
+	position: relative;
+	text-decoration: none;
+	font-style: italic;
+	text-transform: lowercase;
+	margin-left: 3px;
+}
+
+a.more-links:before {
+	content: '...';
+	text-decoration: none;
+	margin-right: 3px;
+}
+
+a.more-link {
+	text-decoration: underline;
+}
+
+.entry-content ul li,
+.entry-content ol li,
+#comments ul li,
+#comments ul li {
+	margin-bottom: 12px;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1em 0;
+}
+
+.no-results .page-content {
+	margin: 1.5em 0;
+	padding-bottom: 1em;
+}
+
+/* Entry Meta */
+.entry-meta {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 300;
+	letter-spacing: 1px;
+	;
+}
+
+.entry-meta a {
+	color: #7f7f7f !important;
+	text-decoration: none;
+}
+
+.entry-meta a:hover {
+	text-decoration: underline;
+}
+
+.entry-meta .comments-link:before {
+	content: " - ";
+}
+
+.byline,
+.updated {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+/* Page Links */
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+	word-spacing: 18px;
+}
+
+/* Entry Footer */
+.entry-footer {
+	font-style: italic;
+	padding-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.single-portfolio .entry-footer {
+	padding: 0;
+}
+
+.entry-footer a {
+	color: #7f7f7f !important;
+	text-decoration: none;
+}
+
+.entry-footer a:hover {
+	text-decoration: underline;
+}
+
+.blog .entry-footer,
+.search-results .entry-footer,
+.archive .entry-footer {
+	padding-bottom: 2em;
+}
+
+.page .entry-footer {
+	border-bottom: 0;
+}
+
+.entry-meta {
+	margin-top: 5px;
+}
+
+/* Entry Navigation */
+.meta-nav {
+	font-size: 13px;
+}
+
+.nav-links a {
+	text-decoration: none;
+}
+
+/* Archives Page */
+.page-header {
+	margin-bottom: 1.5em;
+}
+
+.page-title {
+	line-height: 1;
+	margin-top: 0;
+	text-transform: capitalize;
+}
+
+.page-title:before {
+	content: "#";
+}
+
+.page-header p {
+	font-style: italic;
+	margin-bottom: 0.5em;
+}
+
+/* 404 Page */
+.error-404 .widget,
+.error-404 .widget-title {
+	text-align: left;
+	border: 0;
+}
+
+/* Go to top */
+.smoothup {
+	bottom: 22px;
+	display: none;
+	position: fixed;
+	right: 10px;
+	transition: all 0.2s ease-in-out 0s;
+}
+
+a.smoothup {
+	text-decoration: none;
+}
