@@ -1,0 +1,27 @@
+{
+  "name": "web_project",
+  "version": "1.0.0",
+  "description": "WEb project 2022  to be updated soon!!!!!!!!# web_project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikesh16/web_project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikesh16/web_project/issues"
+  },
+  "homepage": "https://github.com/Nikesh16/web_project#readme",
+  "devDependencies": {
+    "eslint": "^8.28.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "stylelint": "^14.15.0",
+    "stylelint-config-prettier": "^9.0.4",
+    "stylelint-config-standard": "^29.0.0"
+  }
+}
